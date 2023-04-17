@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .centered {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        /* bring your own prefixes */
+        transform: translate(-50%, -50%);
+    }
+
+    .editor {
+        resize: none;
+    }
+
+    .my-btn {
+        box-shadow: 0 4px #999999;
+    }
+
+    .my-btn:active {
+        transform: translateY(2px);
+        box-shadow: 0 2px #999999;
+    }
+
+    .my-login-form {
+        box-shadow: 10px 10px 0px #4267B2;
+    }
+
+    .shadow-kuning {
+        box-shadow: 6px 6px 0px #DBB632;
+    }
+
+    .shadow-kuning:active {
+        transform: translateY(3px);
+        box-shadow: 3px 3px 0px #DBB632;
+    }
+
+    .shadow-biru {
+        box-shadow: 6px 6px 0px #4267B2;
+    }
+
+    .shadow-normal {
+        box-shadow: 6px 6px 0px #DDE1DD;
+    }
+
+    .shadow-abu {
+        box-shadow: 6px 6px 0px #AAAAAA;
+    }
+
+    .shadow-biru:active {
+        transform: translateY(3px);
+        box-shadow: 3px 3px 0px #4267B2;
+    }
+
+    .inputfile {
+        width: 0.1px;
+        height: 0.1px;
+        opacity: 0;
+        overflow: hidden;
+        position: absolute;
+        z-index: -1;
+    }
+
+    .elipsis-1 {
+        text-overflow: ellipsis;
+        overflow: hidden;
+        display: -webkit-box !important;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+        white-space: normal;
+    }
+
+    .elipsis-3 {
+        text-overflow: ellipsis;
+        overflow: hidden;
+        display: -webkit-box !important;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        white-space: normal;
+    }
+
+    .elipsis-6 {
+        text-overflow: ellipsis;
+        overflow: hidden;
+        display: -webkit-box !important;
+        -webkit-line-clamp: 6;
+        -webkit-box-orient: vertical;
+        white-space: normal;
+    }
+}

@@ -7,4 +7,4 @@ Membuat situs simple blog dengan mekanisme CRUD. sebagai tugas ke 2 dari sesi zo
 
 # Deployment Web
 
-Silahkan kunjungi **[http://aribudiman.site](http://aribudiman.site)** untuk melihat hasil jadi Website. Sebagai keterangan website di deploy di Amazon Web Services, lebih tepatnya Amazon EC2 Instance. Memngapa demikian? dikarenakan website sangat kompleks dan kebetulan laravel sail menyediakan fitur deployment ke server sehingga di server dapat menggunakan docker dan mendeploy laravel.
+Silahkan kunjungi **[http://blogs.aribudiman.site](http://blogs.aribudiman.site)** untuk melihat hasil jadi Website. Sebagai keterangan website di deploy di Amazon Web Services, lebih tepatnya Amazon EC2 Instance. Memngapa demikian? dikarenakan website sangat kompleks dan kebetulan laravel sail menyediakan fitur deployment ke server sehingga di server dapat menggunakan docker dan mendeploy laravel.

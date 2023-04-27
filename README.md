@@ -3,7 +3,7 @@
 Membuat situs simple blog dengan mekanisme CRUD. sebagai tugas ke 2 dari sesi zoom Codepolitan. Berikut framework dan library yang digunakan :
 
 - `Laravel` : framework PHP yang sangat powerful dengan berbagai tools yang disediakan memudahkan pembuatan website.
-- `Tailwind` : framework css beserta postcss dan autoprefixer. diinstal melalui vite di NodeJS sehingga bisa diterapkan dengan laravel.
+- `Tailwind` : framework css beserta postcss dan autoprefixer. diinstal melalui `vite` di `NodeJS` sehingga bisa diterapkan dengan laravel.
 
 # Deployment Web
 

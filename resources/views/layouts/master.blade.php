@@ -11,8 +11,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins" rel="stylesheet">
     <!-- tailwind frameworks -->
-    <link rel="preload" as="style" href="{{ site_url('build/assets/app-95157e6f.css') }}">
-    <link rel="stylesheet" href="{{ site_url('build/assets/app-95157e6f.css') }}">
+    <link rel="preload" as="style" href="{{ url('build/assets/app-95157e6f.css') }}">
+    <link rel="stylesheet" href="{{ url('build/assets/app-95157e6f.css') }}">
     <!-- trix editor -->
     <link rel="stylesheet" type="text/css" href="https://unpkg.com/trix@2.0.0/dist/trix.css">
     <script type="text/javascript" src="https://unpkg.com/trix@2.0.0/dist/trix.umd.min.js"></script>
